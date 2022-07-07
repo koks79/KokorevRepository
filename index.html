@@ -1,32 +1,125 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8"> <!-- Это кодировка символов для всех современных браузеров-->
+    <link rel="stylesheet" href="./style.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Это для поддержки Intrernet Explorer(Edge)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My first site</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-
-    <body>
-            <div>
-                <h1>Мой пушистый код</h1>
-        
-                <img src=
-                "data:image/jpeg;base64,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
-                TJkVjAXSDOh7TJkVmRtnE0epaZMgYyNHqEzZEnsyAxIp04YLMmRkKzRmiziNawMyZC+Bj0pXEKrgklQQe8q3Eat20EyZBEeRDYm0CTMmTIB5km9Np7MmMauNZreezITH/2Q==" 
-                alt="На картинке супер кот"
-                width="500">
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati officiis facilis mollitia nulla tempore, perspiciatis unde neque harum, 
-                veniam delectus aliquam enim deserunt similique debitis. 
-                Nostrum et laborum praesentium cum?</p>
-
-                <button>Мяяууу</button>
     
+         
+
+    <!--<style>
+        .popup{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            top: 0;
+            left: 0;
+        }
+    -->
+ </head>
+ <body>
+    <div class="wrapper">
+        <header id="#header" class="header_lock-padding">
+            <div class="header_container _container">
+                <a href="" class="header_logo"></a>
+                <a href="#popup" class="header phone_popup-link"></a>       
+            </div>                
+        </header>
+    </div> 
+
+    </div>
+    <a href="#popup">Попап 1</a>
+
+    <div>
+        <label for="">Я инпут</label>
+        <input type="text">
+    </div>
+
+    <h1> Мы создали первый тэг</h1>
+    <h2>Я тег 2 уровня</h2>
+    <h3>Я тег 3 уровня</h3>
+    <h4>Я тег 4 уровня</h4>
+
+    
+    <select>
+        <option disabled>
+            <span>Это выпадающий список</span>
+        </option>
+        <option>
+            <span>Это выпадающий список 1</span>
+        </option>
+    </select>
+
+    <div id="popup" class="popup">
+    
+        <div class="popup__body">
+            <a href="#header" class="popup__area"></a>
+            <div class="popup__content">
+                <a href="#" class="popup__close">XXX</a>
+                <div class="popup__title">"Это модальное окно №1</div>
+                <div class="popup__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Reiciendis quisquam dolorum inventore. 
+                    Ipsam nostrum porro ex maxime explicabo velit, 
+                    quam nulla distinctio aspernatur 
+                    temporibus beatae voluptate 
+                    accusantium aliquid quis! 
+                    Expedita?
+                </div>
             </div>
-        <script src="./index.js"></script>
-    </body>
-</html>
+        </div> 
+    </div>
+        
+
+          
+
+
+ </body>
+ </html>
