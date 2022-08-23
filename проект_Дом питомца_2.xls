@@ -1,0 +1,125 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="5">Название (Аббр.): Проверка проекта "Дом питомца" (ДП)</td>
+    </tr>
+    <tr>
+        <td colspan="5">Описание: Функциональные проверки приложения «Дом питомца».</td>
+    </tr>
+         <tr>
+        <td colspan="5">Готовность: 0 </td>
+    </tr>
+            <tr>
+        <td colspan="5">Статус: Согласован </td>
+    </tr>
+            <tr>
+        <td colspan="5" style="background-color: #ced1d1;">Функциональная проверка работы сайта</td>
+    </tr>
+    <tr>
+        <td colspan="5" style="background-color: #ced1d1;">Рабочие ссылки, кнопки, что верстка не "плывет" никуда и пр.</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                        <td>Теги</td>
+            </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Проверка работы основных кнопок в заголовке страницы</td>
+                <td>При нажатии открывается соответствущая страница сайта</td>
+                        <td>кнопки</td>
+            </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Высокий        </td>
+        <td>Проверка работы модуля поиска питомца по его параметрам</td>
+                <td>При вводе параметров питомца окрывается карточка питомца</td>
+                        <td>Поиск</td>
+            </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Низкий        </td>
+        <td>Проверка работы модуля сотрировки питомцев</td>
+                <td>При выборе критерия соритровки карточки питомцев ранжируются соотвествующим образом</td>
+                        <td>сортировка</td>
+            </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Высокий        </td>
+        <td>Просмотр картоки питомца</td>
+                <td>При нажати на карточку на домашней странице окрывается страница с информаией о выбранном питомце</td>
+                        <td>карточка</td>
+            </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Низкий        </td>
+        <td>Проверка перехода на страницы соцсетей</td>
+                <td>Осуществляется переход на внешнюю страницу соостветствующей соцсети</td>
+                        <td>соцсети</td>
+            </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Проверка строки поиска питомца в заголовке страницы</td>
+                <td>Вввод имени питомца отображает карточкис подходящими именами</td>
+                        <td>Поиск</td>
+            </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Низкий        </td>
+        <td>Проверка <br />
+элемента навигации между страницами внизу страницы</td>
+                <td>Нажатие на элементы в виде стрелок влево-вправо осуществляют переход на соседние страницы</td>
+                        <td>навигация</td>
+            </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Высокий        </td>
+        <td>Проверка модуля "Приютить питомца"</td>
+                <td>После ввода персональной информации форма отправляет запрос на данного питотмца</td>
+                        <td>приютить</td>
+            </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
