@@ -1,0 +1,1 @@
+This is the test file for practicum in skillFactory QAP-96 unit 9.7
