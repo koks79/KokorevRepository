@@ -1,0 +1,13 @@
+{
+    "id": 5424492421,
+    "is_bot": true,
+    "first_name": "SuperCurrencyDude",
+    "last_name": null,
+    "username": "SuperCurrencyDude_bot",
+    "language_code": null,
+    "can_join_groups": true,
+    "can_read_all_group_messages": false,
+    "supports_inline_queries": false,
+    "is_premium": null,
+    "added_to_attachment_menu": null
+}
