@@ -15,4 +15,5 @@ test_negative.py - набор параметризированных автот�
 
 Запуск автотестов командой из корневой директории проекта:
 python -m pytest -v --driver Chrome --driver-path web_driver/chromedriver.exe tests/tests.py
+
 python -m pytest -v --driver Chrome --driver-path web_driver/chromedriver.exe tests/test_negative.py
